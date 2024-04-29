@@ -33,10 +33,10 @@ Background:
   Scenario Outline: Validate each subcategory under "Financial Services" is present and clickable
     When Click the "Choose Your Industry" heading on the Home page
     When Click the "Insurance" Subcategory
-    And Click the below "<Subcategory>" Link
-       When Click the "Insurance" Subcategory
+    And Click the below "<AfterSubcategory>" Link
+
    Examples:
-     | Subcategory                 |
+     | AfterSubcategory                 |
      | Fraud and Identity Management     |
      | Home Insurance Solutions          |
      |Motor Insurance Solutions|
